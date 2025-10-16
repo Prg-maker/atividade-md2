@@ -1,0 +1,49 @@
+Entrada:
+3
+2 3 4
+
+Saída:
+12
+
+Entrada:
+3
+2 3 5
+
+Saída:
+30
+
+
+Entrada:
+2
+5 5
+
+Saída:
+5
+
+Entrada:
+1
+7
+
+Saída:
+7
+
+
+
+
+Entrada:
+2
+10 13
+
+Saída:
+130
+
+Saída correta: "Nenhum ano encontrado dentro do limite de 50 anos"
+
+
+
+Entrada:
+3
+17 19 23
+
+Saída:
+Nenhum ano encontrado dentro do limite de 50 anos
