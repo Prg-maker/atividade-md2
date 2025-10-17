@@ -22,5 +22,17 @@ int main(){
         xs.push_back(c);
 
     }
-        
+    
+
+
+    int res = xs[0];
+    for (int i = 1 ; i < xs.size() ; i++){
+        res = mmc(res , xs[i]);
+    }
+
+    if (res > 50){
+        cout << "Passou de 50" << endl;
+    }
+
+    cout << res << endl;
 }
