@@ -1,3 +1,14 @@
+Algoritmo de Euclides: 3 mod 11 = 3
+Algoritmo de Euclides: 11 mod 3 = 2
+Algoritmo de Euclides: 3 mod 2 = 1
+Algoritmo de Euclides: 2 mod 1 = 0
+Substituindo, temos que o inverso de 3 em 11 é 4.
+
+Fazendo a multiplicação modular: 7 * 4 mod 11 = 6
+Sendo 4 o inverso de 3.
+Valor final da congruência: 4
+
+
 Considere o código abaixo, que realiza o cálculo da divisão modular H ÷ G (mod Zn) e
 depois computa a^x mod n1, aplicando o Pequeno Teorema de Fermat ou o Teorema de
 Euler, conforme a natureza de n1, classifique como Verdadeiro (V) ou Falso (F) cada uma

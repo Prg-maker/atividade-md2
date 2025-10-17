@@ -20,6 +20,8 @@ map<int , int > decomposition(int n ){
     int v= n;
     for (int i = 2 ; i<= n; i++){
 
+        // acho que não precisa verificar se é primo, mas não quero arriscar
+        // para otimizar poderia tirar essa verificação
         if(!primo(i)){
             continue;
 
