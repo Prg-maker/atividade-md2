@@ -52,7 +52,6 @@ long long P(long long N, long long x0) {
                 return d;
             } else {
                 cout << " (composto - continuando fatoração)" << endl;
-                
                 return P(d, x0);
             }
         }
