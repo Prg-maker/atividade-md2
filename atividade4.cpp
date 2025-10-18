@@ -1,3 +1,4 @@
+// Daniel Fernandes Silva 222008459
 #include <stdio.h>
 
 #ifdef WIN32
@@ -88,3 +89,37 @@ int main() {
 
     return 0;
 }
+
+
+//Algoritmo de Euclides: 3 mod 11 = 3
+//Algoritmo de Euclides: 11 mod 3 = 2
+//Algoritmo de Euclides: 3 mod 2 = 1
+//Algoritmo de Euclides: 2 mod 1 = 0
+//Substituindo, temos que o inverso de 3 em 11 é 4.
+//
+//Fazendo a multiplicação modular: 7 * 4 mod 11 = 6
+//Sendo 4 o inverso de 3.
+//Valor final da congruência: 4
+//
+//
+//Considere o código abaixo, que realiza o cálculo da divisão modular H ÷ G (mod Zn) e
+//depois computa a^x mod n1, aplicando o Pequeno Teorema de Fermat ou o Teorema de
+//Euler, conforme a natureza de n1, classifique como Verdadeiro (V) ou Falso (F) cada uma
+//das afirmativas a seguir:
+//
+//
+//(V) O algoritmo de Euclides estendido é utilizado para calcular o inverso modular de um número.
+//
+//(F) Se mdc(G, Zn) ≠ 1, o programa ainda consegue encontrar o inverso de G em Zn.
+//
+//(V) A operação (H * inverso) % Zn representa a divisão modular de H por G.
+//
+//(V) Se n1 for primo, o código aplica o Pequeno Teorema de Fermat para simplificar o cálculo de
+//a^x mod n1.
+//
+//(F) A função powMod implementa o cálculo de potência modular utilizando multiplicações diretas
+//sem otimização.
+//
+//(V) Quando o resultado do inverso é negativo, o código ajusta o valor somando o módulo m0.
+//
+//(V) O cálculo de fi(n1) (função totiente de Euler) é utilizado apenas quando n1 não é primo.
